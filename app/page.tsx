@@ -2,6 +2,7 @@ import { HeroWithImage } from "@/components/sections/hero/HeroWithImage"
 import { FeaturedServices } from "@/components/sections/services/FeaturedServices"
 import { AboutSection } from "@/components/sections/about/AboutSection"
 import { FeaturesSection } from "@/components/sections/features/FeaturesSection"
+import { GallerySection } from "@/components/sections/gallery/GallerySection"
 import { CTASection } from "@/components/sections/cta/CTASection"
 import { LocationSection } from "@/components/sections/location/LocationSection"
 import { FaqSection } from "@/components/sections/faq/FaqSection"
@@ -11,16 +12,17 @@ export default function Home() {
   return (
     <>
       <HeroWithImage
-        subtitle="Dr. Kamilah Jordaan"
-        title="Sports & Family Chiropractic Care"
-        backgroundImage="/dr-kamilah-professional-portrait.jpeg"
-        backgroundImageAlt="Dr. Kamilah Jordaan - Professional Chiropractor"
-        ctaText="Book Your Appointment"
+        subtitle="Rebecca Currie's Bakery"
+        title="Handcrafted Cheesecakes, Banana Bread & Sweetie Muffins"
+        backgroundImage="https://images.unsplash.com/photo-1517433670267-08bbd4be890f?w=1600&q=80"
+        backgroundImageAlt="Beautiful display of fresh baked goods and desserts"
+        ctaText="Order Online"
         ctaUrl={businessInfo.bookingUrl}
       />
       <FeaturedServices />
       <AboutSection />
       <FeaturesSection />
+      <GallerySection />
       <CTASection />
       <LocationSection />
       <FaqSection />

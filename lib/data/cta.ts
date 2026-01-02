@@ -12,11 +12,11 @@ export interface CTAContent {
  * Update this to modify the CTA section shown on the homepage
  */
 export const ctaContent: CTAContent = {
-  title: 'Ready to Start Your Healing Journey?',
+  title: 'Craving Something Sweet?',
   description:
-    'Experience comprehensive chiropractic care tailored to your unique needs. Dr. Kamilah Jordaan is here to help you achieve optimal health and wellness.',
-  ctaText: 'Book Your Appointment',
-  ctaUrl: 'https://sticksandstoneswellnesshub.pencilmein.online/Booking',
-  backgroundImage: '/cta-background.jpeg',
-  backgroundImageAlt: 'Professional chiropractic treatment room',
+    'Visit us today or place an order for pickup. Fresh cheesecakes, banana bread, and sweetie muffins are waiting for you. Taste the difference that homemade quality makes.',
+  ctaText: 'Order Now',
+  ctaUrl: 'https://rebeccacurriesbakery.com/order',
+  backgroundImage: 'https://images.unsplash.com/photo-1517433670267-08bbd4be890f?w=1600&q=80',
+  backgroundImageAlt: 'Beautiful display of fresh baked goods and desserts',
 }

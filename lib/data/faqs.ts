@@ -10,52 +10,52 @@ export interface FaqItem {
  */
 export const faqs: FaqItem[] = [
   {
-    id: 'first-visit',
-    question: 'What should I expect on my first visit?',
+    id: 'hours',
+    question: 'What are your hours of operation?',
     answer:
-      "Your initial consultation includes a thorough history taking and physical examination to determine if chiropractic care is suitable for you. We'll discuss your health goals and create a personalized treatment plan. The first visit typically lasts 45 minutes to ensure we understand your needs completely. Follow-up appointments are 30 minutes.",
+      "We're open 7 days a week! Monday through Thursday 7am-6pm, Friday 7am-7pm, Saturday 8am-5pm, and Sunday 9am-3pm. We bake fresh every morning, so come early for the best selection. Items often sell out by the afternoon, especially on weekends.",
   },
   {
-    id: 'medical-aid',
-    question: 'Do you accept medical aid?',
+    id: 'orders',
+    question: 'Can I place a custom order?',
     answer:
-      'Yes, we process medical aid claims on your behalf. We work with most major medical aids in South Africa. You settle your bill after your session and then we will submit the claim to your medical aid.',
+      'Yes! We love creating custom orders for special occasions. Whether you need a whole cheesecake for a birthday party or multiple loaves of banana bread for an event, we can help. Please give us at least 48 hours notice for custom orders. Call us at (555) 123-4567 or email hello@rebeccacurriesbakery.com to discuss your needs.',
   },
   {
-    id: 'painful',
-    question: 'Is chiropractic treatment painful?',
+    id: 'ingredients',
+    question: 'Do you accommodate dietary restrictions?',
     answer:
-      "Chiropractic adjustments are generally not painful. You may feel slight pressure or hear a popping sound, but the treatment is designed to relieve pain, not cause it. We adapt techniques to each patient's comfort level and always communicate throughout the treatment to ensure you're comfortable.",
+      "We're happy to discuss dietary needs! While most of our items contain dairy, eggs, and gluten, we can create custom orders for many dietary restrictions with advance notice. Please call us to discuss your specific needs, and we'll do our best to accommodate you.",
   },
   {
-    id: 'sessions',
-    question: 'How many sessions will I need?',
+    id: 'freshness',
+    question: 'How long do your baked goods stay fresh?',
     answer:
-      "The number of sessions varies depending on your condition, its severity, and your health goals. After your initial assessment, we'll provide a treatment plan with an estimated timeline. Most patients see improvement within 2-4 sessions, though chronic conditions may require ongoing care.",
+      "All our items are baked fresh daily without preservatives. Muffins and banana bread stay fresh for 2-3 days at room temperature or up to a week refrigerated. Cheesecakes should be refrigerated and enjoyed within 5 days. Everything also freezes beautifully for up to 3 months - just thaw at room temperature when you're ready to enjoy.",
   },
   {
-    id: 'pregnancy',
-    question: 'Is chiropractic care safe during pregnancy?',
+    id: 'whole-cake',
+    question: 'Do I need to order a whole cheesecake in advance?',
     answer:
-      'Yes, chiropractic care is safe and beneficial during pregnancy. We use specialized techniques designed for pregnant women to help manage pain and ensure proper pelvic alignment for easier delivery. Many women find relief from pregnancy-related back pain through gentle chiropractic care.',
+      "We typically have whole cheesecakes available for walk-in purchase, but we recommend calling ahead to reserve one, especially on weekends. For custom flavors or specific occasions, please give us 48 hours notice so we can prepare exactly what you're looking for.",
   },
   {
-    id: 'children',
-    question: 'Can children receive chiropractic treatment?',
+    id: 'delivery',
+    question: 'Do you offer delivery?',
     answer:
-      'Absolutely! Children can benefit greatly from chiropractic care. We use gentle, age-appropriate techniques to address issues like colic, growing pains, sports injuries, and posture problems. Pediatric chiropractic care supports healthy development and can prevent future problems.',
+      "We currently offer pickup only, but we're located conveniently at 456 Bakery Lane in Springfield with plenty of parking. We package everything carefully so your treats stay fresh and beautiful for the ride home. Local delivery may be available for large orders - please contact us to discuss.",
   },
   {
-    id: 'appointment',
-    question: 'How do I book an appointment?',
+    id: 'allergens',
+    question: 'What about allergens?',
     answer:
-      'You can book an appointment through our online booking system at Sticks and Stones Wellness Hub, call us at 082 940 7129, or email kamilahjordaan@gmail.com. We offer flexible scheduling with appointments available 6 days a week to accommodate your busy lifestyle.',
+      'All our products are made in a kitchen that handles common allergens including wheat, eggs, dairy, tree nuts, and soy. While we practice careful cleaning procedures, we cannot guarantee an allergen-free environment. If you have severe allergies, please contact us to discuss your concerns.',
   },
   {
-    id: 'what-to-wear',
-    question: 'What should I wear to my appointment?',
+    id: 'wholesale',
+    question: 'Do you offer wholesale or catering services?',
     answer:
-      'Wear comfortable, loose-fitting clothing that allows for movement. Avoid wearing dresses or skirts if possible, as you may need to perform certain movements during the examination.',
+      "Yes! We work with local cafes, restaurants, and businesses to provide wholesale baked goods. We also cater events with platters of muffins, sliced banana bread, and dessert assortments. Contact us at hello@rebeccacurriesbakery.com to discuss volume pricing and availability.",
   },
 ]
 

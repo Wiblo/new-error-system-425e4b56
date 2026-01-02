@@ -17,11 +17,11 @@ export interface AboutFull {
  * Brief introduction with link to full about page
  */
 export const aboutPreview: AboutPreview = {
-  title: 'About Our Practice',
+  title: 'About Rebecca Currie',
   description:
-    "Dr. Kamilah Jordaan is a dedicated chiropractor committed to helping people achieve a pain-free life through non-invasive healthcare. With a Master's degree in Chiropractic from the University of Johannesburg earned with distinction, she provides holistic, patient-centered care to individuals of all ages.",
-  image: '/dr-kamilah-professional-portrait.jpeg',
-  imageAlt: 'Dr. Kamilah Jordaan professional portrait',
+    "Rebecca Currie is a passionate baker who has been creating delicious treats for over 15 years. What started as baking for family and friends has blossomed into a beloved neighborhood bakery known for its signature cheesecakes, moist banana bread, and irresistible sweetie muffins. Every item is crafted with love, premium ingredients, and a dedication to bringing joy to your day.",
+  image: 'https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=800&q=80',
+  imageAlt: 'Baker working with fresh dough in the bakery',
 }
 
 /**
@@ -29,12 +29,13 @@ export const aboutPreview: AboutPreview = {
  * Comprehensive information about the practice
  */
 export const aboutFull: AboutFull = {
-  title: 'About Dr. Kamilah Jordaan',
+  title: 'About Rebecca Currie',
   paragraphs: [
-    "Dr. Kamilah Jordaan is a dedicated chiropractor committed to helping people achieve a pain-free life through non-invasive healthcare. With a Master's degree in Chiropractic from the University of Johannesburg earned with distinction, she provides holistic, patient-centered care to individuals of all ages.",
-    'Specializing in sports and family chiropractic care, Dr. Jordaan combines advanced techniques with a compassionate approach to address a wide range of conditions, from sports injuries to chronic pain management.',
-    'At Sticks and Stones Wellness Hub, every patient receives personalized attention and a customized treatment plan designed to support their unique healing journey and long-term wellness goals.',
+    "Rebecca Currie is a passionate baker who has been creating delicious treats for over 15 years. What started as baking for family and friends has blossomed into a beloved neighborhood bakery known for its signature cheesecakes, moist banana bread, and irresistible sweetie muffins.",
+    'Rebecca learned to bake from her grandmother, who passed down cherished family recipes and the belief that baking is an act of love. Today, Rebecca continues that tradition, waking up before dawn to ensure every item that leaves the bakery is perfectly fresh and made with care.',
+    'At Rebecca Currie\'s Bakery, we believe in using only the finest ingredients - real butter, pure vanilla, fresh eggs, and locally sourced produce whenever possible. No shortcuts, no artificial flavors, just honest baking that tastes like home.',
+    'Whether you\'re celebrating a special occasion with one of our famous cheesecakes, grabbing a slice of banana bread with your morning coffee, or treating yourself to a sweetie muffin in the afternoon, we\'re honored to be part of your day. Thank you for supporting our small, family-run bakery.',
   ],
-  image: '/dr-kamilah-professional-portrait.jpeg',
-  imageAlt: 'Dr. Kamilah Jordaan professional portrait',
+  image: 'https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=800&q=80',
+  imageAlt: 'Baker working with fresh dough in the bakery',
 }

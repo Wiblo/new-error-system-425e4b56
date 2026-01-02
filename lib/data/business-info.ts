@@ -1,17 +1,17 @@
 export const businessInfo = {
   // Core business details
-  name: "Practice Name Chiropractic",
-  tagline: "Quality chiropractic care in Your City",
+  name: "Rebecca Currie's Bakery",
+  tagline: "Freshly baked with love, every single day",
   logo: "/logo.png",
 
   // Contact information
   phone: "(555) 123-4567",
-  phoneSecondary: "(555) 987-6543", // Optional second phone number
-  email: "contact@example.com",
+  phoneSecondary: "", // Optional second phone number
+  email: "hello@rebeccacurriesbakery.com",
 
   // Location
   address: {
-    street: "123 Main Street",
+    street: "456 Bakery Lane",
     area: "", // Optional (e.g., "Building Name" or "Suite 100")
     city: "Springfield",
     state: "CA",
@@ -27,46 +27,41 @@ export const businessInfo = {
 
   // Business hours
   hours: {
-    monday: "9:00am - 6:00pm",
-    tuesday: "9:00am - 6:00pm",
-    wednesday: "9:00am - 6:00pm",
-    thursday: "9:00am - 6:00pm",
-    friday: "9:00am - 5:00pm",
-    saturday: "10:00am - 2:00pm",
-    sunday: "Closed",
+    monday: "7:00am - 6:00pm",
+    tuesday: "7:00am - 6:00pm",
+    wednesday: "7:00am - 6:00pm",
+    thursday: "7:00am - 6:00pm",
+    friday: "7:00am - 7:00pm",
+    saturday: "8:00am - 5:00pm",
+    sunday: "9:00am - 3:00pm",
   },
 
   // Social media profiles
   social: {
-    facebook: "https://facebook.com/yourpage",
-    instagram: "https://instagram.com/yourpage",
-    whatsapp: "https://wa.me/1234567890", // WhatsApp link with number
+    facebook: "https://facebook.com/rebeccacurriesbakery",
+    instagram: "https://instagram.com/rebeccacurriesbakery",
+    whatsapp: "", // WhatsApp link with number
     // twitter: "https://twitter.com/yourpage",
     // linkedin: "https://linkedin.com/company/yourpage",
   },
 
   // Site metadata
-  url: "https://example.com",
-  description: "Dedicated to helping people achieve a pain-free life through non-invasive healthcare.",
+  url: "https://rebeccacurriesbakery.com",
+  description: "Rebecca Currie's Bakery specializes in handcrafted cheesecakes, banana bread, and sweetie muffins. Fresh, homemade baked goods made with love and the finest ingredients.",
   priceRange: "$$", // $, $$, $$$, or $$$$
 
   // Schema.org types for JSON-LD structured data
-  // Customize based on your business type. Common combinations:
-  // - Chiropractor: ['LocalBusiness', 'MedicalBusiness', 'HealthAndBeautyBusiness']
-  // - Physical Therapist: ['LocalBusiness', 'MedicalBusiness', 'HealthAndBeautyBusiness']
-  // - Massage Spa: ['LocalBusiness', 'HealthAndBeautyBusiness', 'DaySpa']
-  // - General Wellness: ['LocalBusiness', 'HealthAndBeautyBusiness']
-  // - Acupuncture: ['LocalBusiness', 'MedicalBusiness', 'HealthAndBeautyBusiness']
-  schemaTypes: ['LocalBusiness', 'MedicalBusiness', 'HealthAndBeautyBusiness'] as const,
+  // Bakery: ['LocalBusiness', 'FoodEstablishment', 'Bakery']
+  schemaTypes: ['LocalBusiness', 'FoodEstablishment', 'Bakery'] as const,
 
   // Booking/appointment URL
-  bookingUrl: "https://sticksandstoneswellnesshub.pencilmein.online/Booking",
+  bookingUrl: "https://rebeccacurriesbakery.com/order",
 
   // Google Maps configuration
   maps: {
     apiKey: "AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8",
     // Location name for Google Maps searches
-    locationName: "Sticks and Stones Wellness Hub",
+    locationName: "Rebecca Currie's Bakery",
   },
 }
 

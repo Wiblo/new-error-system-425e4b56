@@ -1,4 +1,4 @@
-import { Activity, Zap } from 'lucide-react'
+import { Cake, Croissant, Cookie } from 'lucide-react'
 import type { LucideIcon } from 'lucide-react'
 
 export interface Service {
@@ -20,69 +20,101 @@ export interface Service {
 }
 
 /**
- * All services offered by the practice
- * Update this array to add/modify services shown throughout the site
+ * All bakery products offered
+ * Update this array to add/modify products shown throughout the site
  */
 export const services: Service[] = [
   {
-    id: 'initial-consultation',
-    slug: 'initial-consultation',
-    name: 'Initial Consultation',
+    id: 'cheesecakes',
+    slug: 'cheesecakes',
+    name: 'Artisan Cheesecakes',
     description:
-      'Comprehensive first visit including thorough history taking, physical examination, and personalised treatment plan development to address your specific health concerns.',
-    duration: '60 min',
-    price: 'R850',
-    image: '/arm-mobility-assessment.jpeg',
-    imageAlt: 'Professional arm mobility assessment during consultation',
-    icon: Activity,
+      'Silky smooth, creamy cheesecakes made with premium cream cheese and a buttery graham cracker crust. Available in classic New York style and seasonal flavors.',
+    duration: 'Whole or by slice',
+    price: 'From $28',
+    image: 'https://images.unsplash.com/photo-1533134242820-b4f0b6fd6f96?w=800&q=80',
+    imageAlt: 'Delicious creamy cheesecake with fresh berries',
+    icon: Cake,
     benefits: [
-      'Complete health assessment',
-      'Diagnosis and explanation',
-      'Personalised treatment plan',
-      'First adjustment if suitable',
+      'Made with premium ingredients',
+      'Baked fresh daily',
+      'Multiple flavor options',
+      'Custom orders available',
     ],
     featured: true,
     shortDescription:
-      'Your journey to optimal health begins with a comprehensive assessment',
+      'Our signature creamy cheesecakes are a customer favorite',
     fullDescription:
-      'During your initial consultation, Dr. Jordaan conducts a thorough evaluation of your health history, current concerns, and wellness goals. This includes a detailed physical examination, postural analysis, and functional movement assessment.\n\nUsing evidence-based diagnostic techniques, we identify the root cause of your discomfort and develop a personalized treatment plan tailored to your unique needs. If appropriate, your first chiropractic adjustment may be performed during this visit.',
+      'Our cheesecakes are crafted using a time-honored family recipe with premium cream cheese, fresh eggs, and pure vanilla. Each cheesecake is baked to perfection with a golden crust and creamy center that melts in your mouth.\n\nWe offer classic New York style as well as seasonal variations like strawberry swirl, chocolate marble, and lemon zest. Perfect for celebrations, gatherings, or simply treating yourself to something special.',
     idealFor: [
-      'New patients',
-      'Chronic pain',
-      'Sports injuries',
-      'Postural issues',
-      'Preventative care',
-      'Wellness optimization',
+      'Birthday celebrations',
+      'Special occasions',
+      'Dessert lovers',
+      'Gift giving',
+      'Holiday gatherings',
+      'Dinner parties',
     ],
   },
   {
-    id: 'follow-up',
-    slug: 'follow-up-consultation',
-    name: 'Follow-Up Consultation',
+    id: 'banana-bread',
+    slug: 'banana-bread',
+    name: 'Classic Banana Bread',
     description:
-      'Continued care appointments to monitor progress, adjust treatment plans, and provide therapeutic interventions tailored to your healing journey.',
-    duration: '30 min',
-    price: 'R650',
-    image: '/spinal-adjustment-treatment.jpeg',
-    imageAlt: 'Professional spinal adjustment treatment session',
-    icon: Zap,
+      'Moist, flavorful banana bread made with ripe bananas, warm spices, and just a hint of vanilla. A timeless favorite that pairs perfectly with your morning coffee.',
+    duration: 'Loaf or by slice',
+    price: 'From $12',
+    image: 'https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?w=800&q=80',
+    imageAlt: 'Fresh baked banana bread loaf',
+    icon: Croissant,
     benefits: [
-      'Progress evaluation',
-      'Treatment adjustments',
-      'Therapeutic interventions',
-      'Home care advice',
+      'Made with real ripe bananas',
+      'Perfectly moist texture',
+      'No artificial flavors',
+      'Great for breakfast or snack',
     ],
     featured: true,
     shortDescription:
-      'Ongoing care to maintain progress and achieve your health goals',
+      'Moist, delicious banana bread that tastes like home',
     fullDescription:
-      'Follow-up consultations are essential for monitoring your progress and ensuring optimal results. Each session includes a reassessment of your condition, targeted chiropractic adjustments, and complementary therapies as needed.\n\nDr. Jordaan adjusts your treatment plan based on your response to care, ensuring you continue progressing toward your health goals. These appointments also include guidance on exercises, lifestyle modifications, and self-care strategies to support your healing between visits.',
+      'Our banana bread is a beloved classic, made with overripe bananas for maximum flavor and natural sweetness. We blend in warm cinnamon, a touch of nutmeg, and pure vanilla extract to create a comforting treat that reminds you of home.\n\nEach loaf is baked until golden brown with a tender crumb that stays moist for days. We also offer variations with walnuts or chocolate chips for those who like a little extra indulgence.',
     idealFor: [
-      'Ongoing treatment',
-      'Maintenance care',
-      'Recovery monitoring',
-      'Pain management',
-      'Performance optimization',
+      'Breakfast on the go',
+      'Coffee companion',
+      'Afternoon snack',
+      'Lunch boxes',
+      'Gift baskets',
+      'Comfort food cravings',
+    ],
+  },
+  {
+    id: 'sweetie-muffins',
+    slug: 'sweetie-muffins',
+    name: 'Sweetie Muffins',
+    description:
+      'Light, fluffy muffins bursting with sweetness. Choose from blueberry, chocolate chip, double chocolate, or our seasonal special flavors.',
+    duration: 'Individual or by the dozen',
+    price: 'From $3.50',
+    image: 'https://images.unsplash.com/photo-1607958996333-41aef7caefaa?w=800&q=80',
+    imageAlt: 'Freshly baked sweet muffins with golden tops',
+    icon: Cookie,
+    benefits: [
+      'Baked fresh every morning',
+      'Perfect portion size',
+      'Multiple flavor varieties',
+      'Great for sharing',
+    ],
+    featured: true,
+    shortDescription:
+      'Perfectly portioned sweet treats for any time of day',
+    fullDescription:
+      'Our sweetie muffins are baked fresh every morning, filling the bakery with an irresistible aroma. Made with high-quality ingredients and packed with flavor, these muffins have a tender crumb and golden dome top.\n\nChoose from our rotating selection of flavors including classic blueberry bursting with fresh berries, decadent double chocolate for chocolate lovers, vanilla chocolate chip, lemon poppy seed, and seasonal specialties. Perfect for breakfast meetings, afternoon treats, or whenever you need a little something sweet.',
+    idealFor: [
+      'Breakfast meetings',
+      'Coffee breaks',
+      'Kids lunchboxes',
+      'Office treats',
+      'Quick snacks',
+      'Party platters',
     ],
   },
 ]

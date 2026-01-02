@@ -21,17 +21,17 @@ export interface SocialLink {
 export const navItems: NavItem[] = [
   { label: "Home", href: "/" },
   { label: "About", href: "/about" },
-  { label: "Treatments", href: "/treatments" },
+  { label: "Our Baked Goods", href: "/treatments" },
   { label: "Contact", href: "/contact" },
 ]
 
-// Footer quick links (can include booking link)
+// Footer quick links (can include order link)
 export const quickLinks: NavItem[] = [
   { label: "Home", href: "/" },
   { label: "About", href: "/about" },
-  { label: "Treatments", href: "/treatments" },
+  { label: "Our Baked Goods", href: "/treatments" },
   { label: "Contact", href: "/contact" },
-  // Booking link will be added dynamically from businessInfo.bookingUrl
+  // Order link will be added dynamically from businessInfo.bookingUrl
 ]
 
 // Social media links
@@ -86,13 +86,13 @@ export function getSocialLinksWithUrls(businessInfo: {
     .filter(link => link.href) // Filter out links without URLs
 }
 
-// Helper function to get quick links with booking URL
+// Helper function to get quick links with order URL
 export function getQuickLinksWithBooking(bookingUrl?: string): NavItem[] {
   const links = [...quickLinks]
 
   if (bookingUrl) {
     links.push({
-      label: "Book Appointment",
+      label: "Order Online",
       href: bookingUrl,
       external: true,
     })

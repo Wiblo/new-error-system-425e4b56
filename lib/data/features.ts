@@ -9,34 +9,34 @@ export interface FeatureBlock {
 
 /**
  * Features section content
- * Highlighting key features, benefits, or unique aspects of the practice
+ * Highlighting key features, benefits, or unique aspects of the bakery
  */
 export const featureBlocks: FeatureBlock[] = [
   {
     id: 'feature-1',
-    title: 'Expert Chiropractic Care',
+    title: 'Baked Fresh Daily',
     description:
-      'Our comprehensive approach combines advanced chiropractic techniques with personalized treatment plans designed to address your specific needs. We focus on long-term solutions rather than temporary relief, helping you achieve lasting wellness.',
-    image: '/spinal-adjustment-treatment.jpeg',
-    imageAlt: 'Professional chiropractic treatment',
+      'Every morning, we start before sunrise to ensure all our baked goods are fresh from the oven. From our signature cheesecakes to our sweetie muffins, nothing sits overnight. When you visit Rebecca Currie\'s Bakery, you\'re getting treats made that very day with care and attention to every detail.',
+    image: 'https://images.unsplash.com/photo-1509440159596-0249088772ff?w=800&q=80',
+    imageAlt: 'Baker preparing fresh dough in the morning',
     imagePosition: 'right',
   },
   {
     id: 'feature-2',
-    title: 'Modern Treatment Techniques',
+    title: 'Premium Ingredients',
     description:
-      'We utilize the latest evidence-based chiropractic methods and state-of-the-art equipment to provide effective, gentle care. Our techniques are continuously updated to incorporate the most current research in chiropractic medicine.',
-    image: '/iastm-shoulder-treatment.jpeg',
-    imageAlt: 'Modern treatment techniques',
+      'We believe great baking starts with great ingredients. That\'s why we use real butter, pure vanilla extract, fresh eggs, and locally sourced produce whenever possible. No artificial flavors, no preservatives, no shortcuts. Just honest, wholesome ingredients that you can taste in every bite.',
+    image: 'https://images.unsplash.com/photo-1586985289688-ca3cf47d3e6e?w=800&q=80',
+    imageAlt: 'Fresh baking ingredients and supplies',
     imagePosition: 'left',
   },
   {
     id: 'feature-3',
-    title: 'Personalized Wellness Plans',
+    title: 'Family Recipes, Made with Love',
     description:
-      'Every patient receives a customized treatment plan tailored to their unique condition, lifestyle, and wellness goals. We take the time to understand your needs and create a roadmap to help you achieve optimal health.',
-    image: '/hip-adjustment-side-lying.jpeg',
-    imageAlt: 'Personalized wellness consultation',
+      'Our recipes have been passed down through generations, refined over decades, and made with the same love and care that Rebecca learned from her grandmother. Every cheesecake, every loaf of banana bread, every muffin is baked using time-honored techniques that create flavors and textures you simply can\'t find anywhere else.',
+    image: 'https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=800&q=80',
+    imageAlt: 'Warm and inviting bakery display',
     imagePosition: 'right',
   },
 ]
